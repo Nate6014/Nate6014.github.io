@@ -1,0 +1,94 @@
+body {
+	background: #ffffff;
+	font: Helvetica Neue, Helvetica, Arial, Sans-Serif;
+}
+
+#container {
+	
+	background-image: url("../images/bg.png");
+	background-position: center;
+	background-size: cover;
+	border: 1px solid #dddddd;
+	overflow: auto;
+}
+h1 {
+		float: left;
+		text-align: center;
+		padding: 4px;
+		color: #ffffff;
+		background: #4aaaa5; 
+} 
+
+#content {
+	width: 960px; margin: 10px 280px 0px; border: 1px solid #dddddd;
+	color: #4aaaa5; 
+	background-color: #ffffff;
+	overflow: auto;
+	display: flex;
+	align-items: flex-end;
+
+}
+
+#head {
+	height: 100px;
+	width: 960px;
+	margin: 0 auto;
+}
+
+
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #dddddd;
+}
+
+#nav {
+	
+}
+
+
+
+ul#nav {
+	padding-top: 30px;
+    list-style-type: none;
+	text-align: center;
+    overflow: hidden;
+}
+ul#nav li {
+    float: right;
+    border-right:solid 1px #777777;
+	display: block;
+    color: #777777;
+    text-align:center;
+	padding: 8px;
+    text-decoration: none;
+}
+
+.portfolio-item {
+	height: 50%;
+	width: 20%;
+
+}
+
+a:link, a:visited {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    background-color: #f2f2f2;
+	text-decoration: none;
+}
+
+#copyright {
+	background-color: #666666;
+	border-top: 8px solid #4aaaa5;
+	margin-top: 50px;
+	margin-bottom: 0px;
+	text-align: center;
+	color:  #777777;
+	padding: 2px;
+}
