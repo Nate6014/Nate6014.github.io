@@ -24,9 +24,11 @@ h1 {
 	color: #4aaaa5; 
 	background-color: #ffffff;
 	overflow: auto;
-	display: flex;
-	align-items: flex-end;
 
+}
+items {
+	display: flex;
+	align-items: baseline;
 }
 
 #head {
