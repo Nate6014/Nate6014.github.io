@@ -25,7 +25,7 @@ body {
 
 footer,
 .push {
-  height: 105px;
+  height: 75px;
 }
 
 #logo:hover,
@@ -47,6 +47,16 @@ nav a:hover {
   max-width: 960px;
   margin: 0 auto;
   clear: both;
+}
+
+.btn{
+  background-color: #4aaaa5;
+  border-color: #4aaaa5;
+}
+
+.btn:hover {
+  border-color: #5e7f7e;
+  background-color: #5e7f7e;
 }
 
 h1,
@@ -91,10 +101,11 @@ h3 {
   border-bottom: 2px solid #ccc;
 }
 
-#logo {
+.me {
   float: left;
   width: 250px;
   height: 90px;
+  margin: 10px;
   font-family: Georgia, Times, "Times New Roman", serif;
   font-size: 30px;
   font-weight: 700;
@@ -105,12 +116,12 @@ h3 {
   background: #4aaaa5;
 }
 
-nav {
+.nav {
   float: right;
-  margin-top: 25px;
+  margin-top: 74px;
 }
 
-nav a {
+.nav a {
   display: inline-block;
   padding-left: 15px;
   margin-left: 15px;
@@ -167,6 +178,7 @@ h3,
 
 #main-container {
   padding-top: 130px;
+
 }
 
 .main-section {
@@ -177,6 +189,7 @@ h3,
   margin: 0 0 40px;
   background: #fff;
   border: 1px solid #ddd;
+  overflow: auto;
 }
 
 #contact-form ul {
@@ -208,7 +221,7 @@ textarea {
   height: 200px;
 }
 
-input[type=submit] {
+.input[type=submit] {
   padding: 10px 30px;
   font-size: 18px;
   color: #fff;
